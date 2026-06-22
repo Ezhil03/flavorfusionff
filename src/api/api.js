@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: import.meta.env.VITE_API_URL || "https://flavorfusion-3-6epl.onrender.com/api",
+  baseURL: import.meta.env.VITE_API_URL || "https://back-9hrh.onrender.com/api",
 });
 
 // Add JWT token to every request
